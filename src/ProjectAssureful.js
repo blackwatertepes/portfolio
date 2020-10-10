@@ -13,7 +13,7 @@ function ProjectAssureful() {
       <Link display="block" variant="caption" href="https://assureful.com">Assureful Website</Link>
       <Grid container spacing={1}>
         <Grid item xs={8} md={6}>
-          <img src="images/project_assureful_400.png" />
+          <img alt="Assureful Dashboard Screenshot" src="images/project_assureful_400.png" />
         </Grid>
         <Grid item xs={8} md={6}>
           <Typography variant="body1">
