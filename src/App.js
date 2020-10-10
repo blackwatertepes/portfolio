@@ -4,7 +4,6 @@ import {
   Container,
   Grid,
   Link,
-  Toolbar,
   Typography
 } from '@material-ui/core';
 import {
@@ -49,7 +48,7 @@ function App() {
                   <Grid item>LinkedIn</Grid>
                 </Grid>
               </Link>
-              <Link display="block" variant="body1" href="https://stackexchange.com/users/1728484/tyler-j-kuhn" key="linkedin">
+              <Link display="block" variant="body1" href="https://stackexchange.com/users/1728484/tyler-j-kuhn" key="stackexchange">
                 <Grid container direction="row" spacing={1} alignItems="center">
                   <Grid item>
                     <QuestionAnswerOutlined />
@@ -57,7 +56,7 @@ function App() {
                   <Grid item>StackExchange</Grid>
                 </Grid>
               </Link>
-              <Link display="block" variant="body1" href="https://medium.com/@tylerjkuhn" key="linkedin">
+              <Link display="block" variant="body1" href="https://medium.com/@tylerjkuhn" key="medium">
                 <Grid container direction="row" spacing={1} alignItems="center">
                   <Grid item>
                     <SubjectOutlined />
