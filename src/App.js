@@ -5,7 +5,9 @@ import {
   Grid,
   Typography
 } from '@material-ui/core';
+import About from './About';
 import Social from './Social';
+import ProjectAssureful from './ProjectAssureful';
 
 function App() {
   return (
@@ -19,12 +21,10 @@ function App() {
         <main>
           <Grid container spacing={5}>
             <Grid item xs={12} md={8}>
-              <Typography variant="h5">About</Typography>
-              <Typography variant="body1">
-                Currently architecting a software solution for a stealth startup in the commercial insurance space.
-              </Typography>
+              <ProjectAssureful />
             </Grid>
             <Grid item xs={12} md={4}>
+              <About />
               <Social />
             </Grid>
           </Grid>
