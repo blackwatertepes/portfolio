@@ -13,6 +13,7 @@ function About() {
         I've dabbled in a variety of web technologies, including Ruby/Rails, NodeJS, PostgresQL, React, Docker, Heroku, & various bits of AWS.
         When I'm not programming, you can usually find me riding my electric skateboard around San Francisco.
       </Typography>
+      <img alt="Project Euler tyler.j.kuhn Solved 66 - Level 2" src="https://projecteuler.net/profile/blackwatertepes.png" />
     </React.Fragment>
   );
 }
